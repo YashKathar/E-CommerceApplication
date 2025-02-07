@@ -1,0 +1,193 @@
+.productDiv{
+    min-height: 100vh;
+}
+
+#homePage{
+    margin: 50%;
+}
+.tableClass{
+    margin-left: 0%;
+    margin-top: 3%;
+}
+
+.mainDiv1{
+    display: inline-block;
+    background-color: whitesmoke;
+    /* width: 100%; */
+    height: 100%;
+}
+
+.buttonDiv{
+    margin-left: 40vw;
+}
+
+.sideDiv{
+    display: inline-block;
+    width: 100%;
+    /* height: 100%; */
+    border: 1px solid black;
+}
+
+#popUpButton{
+    transform: translate(-50%,-50%);
+}
+
+.popup{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.popup .overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    transition: opacity 100ms ease-in-out 200ms;
+}
+
+.popup .popup-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1.15);
+    width: 95%;
+    max-width: 500px;
+    height: 95%;
+    max-height: 250px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    opacity: 1;
+    box-shadow: 0px, 2px, 2px, 5px, rgba(0, 0, 0, 0.5);
+    transition: all 300ms ease-in-out;
+}
+
+.popup .popup-content h2{
+    margin: 10px, 0px;
+    font-size: 25px;
+    color: #111;
+    text-align: center;
+}
+
+.popup .popup-content .controls{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px, 0px, 0px;
+}
+.popup .popup-content .controls button{
+    padding: 10px, 20px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.popup .popup-content .controls .close-btn{
+    background: transparent;
+    color: #3284ed;
+}
+
+.popup .popup-content .controls .submit-btn{
+    background: #3284ed;
+    color: #fff;
+    width: 100px;
+}
+
+.popup.active{
+    top: 0px;
+    transition: top 0ms ease-in-out 0ms;
+}
+
+.popup.active .overlay{
+    opacity: 1;
+    transition: all 300ms ease-in-out;
+}
+
+.popup.active .popup-content{
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+
+}
+
+.k-4{
+   border: 2px solid black;
+}
+
+.k-5{
+    background-color: aqua;
+ }
+
+.productsInfoDiv{
+    
+}
+
+
+.btn-yes{
+    background-color: orangered;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 80px;
+    height: 35px;
+}
+
+.productsInfoButton, .selectAllBtn{
+    border: none;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.myRow {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex
+;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+.myRow {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex
+;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-0.5* var(--bs-gutter-x));
+    margin-left: calc(-0.5* var(--bs-gutter-x));
+}
+
+.myRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 0px;
+}
+.myRow {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex
+;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}

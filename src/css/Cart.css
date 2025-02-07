@@ -1,0 +1,37 @@
+.mainDiv{
+    min-height: 100vh;
+}
+.tBody{
+    text-align: center;
+}
+
+.delete-Icon{
+   width: 30px;
+   height: 30px;
+}
+
+.btn-yes{
+    background-color: orangered;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 80px;
+    height: 35px;
+}
+
+.btn-no{
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 80px;
+    height: 35px;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+}
+  
+  
+
